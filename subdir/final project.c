@@ -27,7 +27,7 @@ typedef struct CUSTOMER
 //EQUIPMENT DETAILS MODULE
 typedef struct EQUIP
 {
-  char material[MAX],brand[MAX],type[MAX];
+  char   material[MAX],brand[MAX],type[MAX];
   int quantity,cost,id;
   struct EQUIP*next;
 }EQUIP;
