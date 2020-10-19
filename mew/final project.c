@@ -705,7 +705,7 @@ void modify1(CUSTOMER *head1,int id)
 						break;
 
 					case 2:
-						printf("\nENTER THE AGE :  ");
+						printf("\nENTER THE AGE   :  ");
 						scanf("%d",&ptr->age);
 						while(ptr->age<0 || ptr->age>100)
 						{
