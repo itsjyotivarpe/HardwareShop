@@ -176,7 +176,7 @@ void main()
 
 						case 5:
 							clrscr();
-							printf("\nENTER THE ID OF THE RECORD TO BE MODIFIED :  ");
+							printf("\n Do not Enter do ENTER THE ID OF THE RECORD TO BE MODIFIED :  ");
 							flushall();
 							scanf("%d",&id);
 							modify1(head1,id);
